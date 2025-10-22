@@ -5,8 +5,7 @@ edition = "2024"
 
 [dependencies]
 chrono = { version = "0.4.42", features = ["serde"] }
-poem = "3.1.12"
-poem-openapi = { version = "5.1.16", features = ["swagger-ui"] }
+rocket = "0.5.1"
 tokio = { version = "1.48.0", features = ["macros", "rt-multi-thread"] }
 tokio-postgres = "0.7.15"
 uuid = { version = "1.18.1", features = ["v4"] }
